@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.8s ease;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
+  background: #5361e4;
+  padding: 10px;
+  text-align: center;
+  padding-left: 130px;
+  padding-right: 80px;
+}
+
+.headerLogo {
+  width: 155px;
+  height: 136px;
+  margin-top: 10px;
+}
+
+.headerMenu {
+  display: flex;
+  gap: 30px;
+}
+
+.headerLink {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.headerLink::before {
+  transition: all 0.8s ease;
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -3px;
+  background-color: #fff;
+}
+
+.headerLink::before {
+  left: 0;
+}
+
+.headerLink:hover::before {
+  width: 100%;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+#dropdown-basic {
+  color: #fff;
+  background: #5361e4;
+  outline: none;
+  border: none;
+  margin-right: 30px;
+}
+
+#dropdown-basic:hover {
+  color: #5361e4;
+  background: #fff;
+}
+
+.dropdown-item:hover {
+  background: #5361e4;
+}
+
+.startBtn {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+
+  background: #5361e4;
+  color: #fff;
+}
+
+.startBtn:hover {
+  background: #fff;
+  color: #5361e4;
+}
+
+.heroBar {
+  display: block;
+  max-width: 1000px;
+  width: 100%;
+  margin-left: 480px;
+}
+
+.heroBar h3 {
+  font-weight: 450;
+  font-size: 20px;
+}
+
+.heroBar input {
+  border-radius: 10px;
+  border: 1px solid #e3e3e3;
+  outline-color: #e3e3e3;
+  padding: 9px;
+}
+
+.heroTop h2 {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.heroTop p {
+  color: #b3b3b3;
+}
+
+.heroAva {
+  display: flex;
+}
+
+.heroAva p {
+  color: #5361e4;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.heroInputs {
+  margin-top: 25px;
+}
+
+.heroInputs input {
+  width: 702px;
+  height: 56px;
+}
+
+.companylogo {
+  display: flex;
+  gap: 30px;
+}
+
+.companyLogo {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+}
+
+.companyLogo:hover {
+  background: #5361e4;
+}
+
+.countryName {
+  display: flex;
+  gap: 190px;
+  margin-left: 10px;
+}
+
+.heroCountry h3 {
+  display: block;
+}
+
+.countryInp {
+  display: flex;
+  gap: 30px;
+}
+
+.heroLivePlace input {
+  width: 702px;
+  height: 56px;
+}
+
+.heroEmployees input {
+  width: 702px;
+  height: 56px;
+}
+
+.heroDescription .textarea {
+  border-radius: 10px;
+  width: 702px;
+  height: 145px;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #e3e3e3;
+}
+
+.heroBtns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heroBtns button {
+  padding: 8px 18px;
+  border-radius: 10px;
+  border: none;
+  color: #6e6d77;
+  background: #fff;
+}
+.heroBtns button:hover {
+  color: #fff;
+  background: #5361e4;
+}
+.heroBtns .nextBtn {
+  margin-right: 320px;
+}
+.heroBtns .backBtn {
+  margin-left: 20px;
+}
